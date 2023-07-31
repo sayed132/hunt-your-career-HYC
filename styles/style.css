@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@500&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,700;1,800&display=swap');
+
+/* font family  */
+/* font-family: 'Open Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Work Sans', sans-serif;
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0px auto;
+    font-family: 'Work Sans';
+}
+
+.nav-section {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 10px 5px;
+}
+
+/* navbar style  */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.right-nav ul {
+    display: flex;
+}
+
+.right-nav ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.right-nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transform: translate();
+}
+
+.right-nav ul li a:hover {
+
+    background-color: rgba(239, 174, 100, 0.1);
+    transition: 1s;
+    color: rgb(46, 44, 44);
+
+}
+
+.left-nav h1 {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.small-device{
+    display: none;
+}
