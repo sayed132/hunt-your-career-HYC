@@ -12,14 +12,34 @@
 }
 
 body {
-    max-width: 1400px;
-    margin: 0px auto;
+    max-width: 1920px;
+    margin: 0 auto;
     font-family: 'Work Sans';
+}
+header, main, footer{
+    max-width: 1440px;
 }
 
 .nav-section {
     background: rgba(255, 144, 14, 0.10);
-    padding: 10px 5px;
+
+    width: 100%;
+}
+
+.primary-btn {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* navbar style  */
@@ -28,7 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     height: 70px;
 }
@@ -67,12 +87,67 @@ nav {
 .left-nav h1 {
     color: var(--dark-01, #131313);
     text-align: center;
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.small-device {
+    display: none;
+}
+
+/* banner section style  */
+.banner-section {
+    background: rgba(255, 144, 14, 0.10);
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+
+.banner-header {
+    max-width: 868px;
+    margin: 0 auto;
+    padding-top: 102px;
+    padding-bottom: 127px;
+}
+
+.banner-heading {
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 5px;
 }
-.small-device{
-    display: none;
+
+.banner-head-desc {
+    color: #727272;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+    /* 162.5% */
+}
+
+.btn {
+    margin-top: 32px;
+    display: flex;
+}
+.header-btn{
+    margin: 0 auto;
+}
+.banner-slide{
+    display: flex;
+}
+
+.banner-slide img{
+    width: 87%;
+    margin: 0 auto;
 }
